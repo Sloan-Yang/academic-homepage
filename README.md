@@ -31,11 +31,11 @@ JEKYLL_ENV=production bundle exec jekyll build --strict_front_matter --trace
 - `_data/navigation.yml`: navigation links.
 - `_data/authors.yml`: author-name emphasis.
 - `_publications/*.md`: titles, author lists, manuscript status, images, and links.
-- `assets/files/cv.pdf`: the downloadable CV.
+- `assets/files/cv.pdf`: the downloadable CV, compiled from `My_academic_CV/Yang_Shirong_CV.tex`.
 - `assets/css/global.css`: layout and responsive styling.
 - `_config.yml`: site URL and repository subpath.
 
-The initial research metadata and figures are copied from `sloan-yang-website/lib/research.ts` and `public/research/`. Later updates should be reflected in both sites. All three manuscripts are currently labeled **Under review**; only InterIL has public paper/arXiv links. The MPhil label follows the current portfolio; the copied CV still uses “M.S. in Computer Science.”
+The initial research metadata and figures are copied from `sloan-yang-website/lib/research.ts` and `public/research/`. Later updates should be reflected in both sites. All three manuscripts are currently labeled **Under review**. Paper/arXiv buttons use the links supplied in each publication record. The CV is maintained in the separate `My_academic_CV` repository; rebuild it and copy the resulting PDF here when updating it. Its personal homepage link points to `https://sloan-yang.github.io/academic-homepage/`.
 
 ## GitHub Pages
 
