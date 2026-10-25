@@ -1,5 +1,5 @@
 {% assign item = include.item %}
-<article class="publication-item" aria-labelledby="title-{{ item.slug }}">
+<article class="publication-item{% if item.cover_layout == 'wide' %} publication-item--wide{% endif %}" aria-labelledby="title-{{ item.slug }}">
   <a class="publication-cover" href="{{ item.project_url }}" aria-label="{{ item.short_name }} project page">
     <img src="{{ item.cover | relative_url }}" alt="{{ item.cover_alt | escape }}" width="{{ item.cover_width }}" height="{{ item.cover_height }}" loading="lazy" decoding="async">
   </a>
