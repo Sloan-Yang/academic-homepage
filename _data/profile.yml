@@ -1,0 +1,34 @@
+primary_name: Shirong Yang
+secondary_name: Sloan
+navbar_name: Shirong Yang
+positions:
+  - name: MPhil Student
+  - name: ShanghaiTech University
+email: yangshr2024@shanghaitech.edu.cn
+github: Sloan-Yang
+cv_link: /assets/files/cv.pdf
+website: https://sloan-yang.com
+# Add a portrait here when you have a photograph you would like to use.
+# portrait_url: /assets/images/portrait.jpg
+short_bio: >-
+  <p>I am an MPhil student at <a href="https://www.shanghaitech.edu.cn/eng/">ShanghaiTech University</a>,
+  working on generative models for graphic design and structured visual generation.</p>
+  <p>My research studies how imagery, spatial layout, typography, and semantic intent can be
+  generated and edited together. I am particularly interested in using pretrained multimodal
+  priors to produce coherent designs that remain editable.</p>
+  <p>My broader interests include 2D/3D generation, vector and SVG graphics, world models,
+  and diffusion- and flow-based generative modeling. Outside research, I enjoy drawing and
+  building interactive systems with Unity, Unreal, and Bevy.</p>
+interests:
+  - Generative modeling
+  - Structured visual generation
+  - Graphic design generation
+  - Vector & SVG graphics
+education:
+  - name: ShanghaiTech University
+    position: MPhil Student
+    date: 2024 – Present
+    detail: Generative AI, computer vision, and graphic design generation
+  - name: Sichuan University
+    position: B.S. in Artificial Intelligence
+    date: Sep 2020 – Jul 2024

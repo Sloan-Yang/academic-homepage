@@ -1,0 +1,23 @@
+<aside class="profile-card card" aria-label="Profile">
+  <div class="card-body">
+    {% if site.data.profile.portrait_url %}
+    <img class="profile-portrait" src="{{ site.data.profile.portrait_url | relative_url }}" alt="{{ site.data.profile.primary_name }}">
+    {% endif %}
+    <h1>{{ site.data.profile.primary_name }}</h1>
+    <p class="profile-alias">{{ site.data.profile.secondary_name }}</p>
+    <div class="profile-position">
+      {% for position in site.data.profile.positions %}<div>{{ position.name }}</div>{% endfor %}
+    </div>
+    <p class="profile-location">Shanghai, China</p>
+    <div class="profile-links">
+      <a href="mailto:{{ site.data.profile.email }}">{{ site.data.profile.email | split: '@' | first }}@<wbr>{{ site.data.profile.email | split: '@' | last }}</a>
+      <a href="https://github.com/{{ site.data.profile.github }}">GitHub</a>
+      <a href="{{ site.data.profile.cv_link | relative_url }}">Curriculum Vitae</a>
+      <a href="{{ site.data.profile.website }}">Personal website</a>
+    </div>
+    <div class="profile-interests">
+      <h2>Research interests</h2>
+      <ul>{% for interest in site.data.profile.interests %}<li>{{ interest }}</li>{% endfor %}</ul>
+    </div>
+  </div>
+</aside>

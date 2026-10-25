@@ -1,0 +1,9 @@
+pages:
+  - name: About
+    url: /#about
+  - name: Research
+    url: /#research
+  - name: Education
+    url: /#education
+  - name: CV
+    url: /assets/files/cv.pdf

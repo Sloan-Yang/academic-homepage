@@ -1,0 +1,18 @@
+title: Shirong Yang
+description: MPhil student at ShanghaiTech University, researching generative models for graphic design and structured visual generation.
+url: https://sloan-yang.github.io
+baseurl: /academic-homepage
+lang: en
+timezone: Asia/Shanghai
+markdown: kramdown
+collections:
+  publications:
+    output: false
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - vendor
+  - scripts
+  - artifacts
+  - node_modules

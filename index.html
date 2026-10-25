@@ -1,0 +1,36 @@
+---
+layout: default
+---
+<div class="row homepage-grid">
+  <div class="col-lg-3 col-md-4 profile-column">
+    {% include widgets/profile_card_mini.html %}
+  </div>
+  <div class="col-lg-9 col-md-8 content-column">
+    <section class="card content-card" id="about" aria-labelledby="about-title">
+      <div class="card-body">
+        <h2 id="about-title">About me</h2>
+        <div class="profile-bio">{{ site.data.profile.short_bio }}</div>
+      </div>
+    </section>
+    <section class="card content-card research-card" id="research" aria-labelledby="research-title">
+      <div class="section-heading">
+        <h2 id="research-title">Selected research</h2>
+        <p>Publications & manuscripts</p>
+      </div>
+      {% assign publications = site.publications | sort: 'order' %}
+      {% for item in publications %}{% include widgets/publication_item.html item=item %}{% endfor %}
+    </section>
+    <section class="card content-card" id="education" aria-labelledby="education-title">
+      <div class="card-body">
+        <h2 id="education-title">Education</h2>
+        {% for item in site.data.profile.education %}
+        <div class="education-item">
+          <div class="education-heading"><h3>{{ item.name }}</h3><span>{{ item.date }}</span></div>
+          <p>{{ item.position }}</p>
+          {% if item.detail %}<p class="education-detail">{{ item.detail }}</p>{% endif %}
+        </div>
+        {% endfor %}
+      </div>
+    </section>
+  </div>
+</div>

@@ -1,0 +1,11 @@
+<nav class="navbar navbar-expand-sm navbar-light fixed-top" aria-label="Primary navigation">
+  <div class="container-lg">
+    <a class="navbar-brand" href="{{ '/' | relative_url }}">{{ site.data.profile.navbar_name }}</a>
+    <button class="navbar-toggler" type="button" aria-controls="site-navigation" aria-expanded="false" hidden>Menu</button>
+    <div class="site-navigation" id="site-navigation">
+      {% for item in site.data.navigation.pages %}
+      <a class="nav-link" href="{{ item.url | relative_url }}">{{ item.name }}</a>
+      {% endfor %}
+    </div>
+  </div>
+</nav>
