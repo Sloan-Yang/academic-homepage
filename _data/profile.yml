@@ -8,8 +8,7 @@ email: yangshr2024@shanghaitech.edu.cn
 github: Sloan-Yang
 cv_link: /assets/files/cv.pdf
 website: https://sloan-yang.com
-# Add a portrait here when you have a photograph you would like to use.
-# portrait_url: /assets/images/portrait.jpg
+portrait_url: /assets/portrait.png
 short_bio: >-
   <p>I am an MPhil student at <a href="https://www.shanghaitech.edu.cn/eng/">ShanghaiTech University</a>,
   working on generative models for graphic design and structured visual generation.</p>

@@ -26,7 +26,7 @@ h2 { font-size: 21px; font-weight: 600; letter-spacing: -.025em; margin-bottom: 
 .profile-alias { color: var(--muted); margin-bottom: 20px; }
 .profile-position { font-size: 14px; line-height: 1.7; }
 .profile-location { color: var(--muted); font-size: 13px; margin: 11px 0 23px; }
-.profile-portrait { display: block; width: 100%; height: auto; border-radius: 5px; margin-bottom: 22px; }
+.profile-portrait { display: block; width: 100%; height: auto; aspect-ratio: 1; object-fit: cover; object-position: 25% 50%; border-radius: 5px; margin-bottom: 22px; }
 .profile-links { display: flex; flex-direction: column; align-items: flex-start; gap: 8px; font-size: 13px; }
 .profile-links a { overflow-wrap: anywhere; }
 .profile-interests { border-top: 1px solid var(--line); padding-top: 22px; margin-top: 24px; }
@@ -59,5 +59,6 @@ h2 { font-size: 21px; font-weight: 600; letter-spacing: -.025em; margin-bottom: 
 @media (max-width: 1199px) { .container-lg { max-width: 1040px; } .publication-item { grid-template-columns: 170px minmax(0, 1fr); gap: 20px; } }
 @media (max-width: 991px) { .publication-item { grid-template-columns: minmax(0, 1fr); gap: 17px; } .publication-cover { max-width: 280px; } .education-heading { flex-direction: column; gap: 1px; } }
 @media (max-width: 767px) { body { padding-top: 84px; } .profile-column { position: static; margin-bottom: 21px; } .profile-card .card-body { padding: 23px; } .profile-interests { display: none; } .profile-links { flex-direction: row; flex-wrap: wrap; gap: 8px 19px; } .profile-links a:first-child { flex-basis: 100%; } .profile-location { margin-bottom: 15px; } .profile-alias { margin-bottom: 14px; } .card-body, .publication-item { padding: 23px; } .section-heading { padding: 20px 23px 17px; } .publication-cover { max-width: 100%; width: 100%; min-height: 100px; } .publication-cover img { max-height: 180px; } .content-card { margin-bottom: 20px; } }
+@media (max-width: 767px) { .profile-portrait { max-width: 160px; margin-bottom: 20px; } }
 @media (max-width: 575px) { .navbar { padding: 10px 15px; } .navbar > .container-lg { padding: 0; } .site-navigation { width: 100%; flex-wrap: wrap; gap: 0; } .site-navigation .nav-link { padding: 8px 14px 8px 0; } .enhanced .site-navigation { display: none; } .enhanced .navbar-toggler[aria-expanded="true"] + .site-navigation { display: flex; } body:has(.navbar:not(.enhanced)) { padding-top: 130px; } }
 @media print { body { background: #fff; padding: 0; } .navbar, .skip-link, .footer { display: none; } .profile-column { position: static; } .card { box-shadow: none; } .publication-item { break-inside: avoid; } }

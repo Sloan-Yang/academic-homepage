@@ -1,7 +1,7 @@
 <aside class="profile-card card" aria-label="Profile">
   <div class="card-body">
     {% if site.data.profile.portrait_url %}
-    <img class="profile-portrait" src="{{ site.data.profile.portrait_url | relative_url }}" alt="{{ site.data.profile.primary_name }}">
+    <img class="profile-portrait" src="{{ site.data.profile.portrait_url | relative_url }}" alt="Portrait of {{ site.data.profile.primary_name }}" width="1445" height="1088">
     {% endif %}
     <h1>{{ site.data.profile.primary_name }}</h1>
     <p class="profile-alias">{{ site.data.profile.secondary_name }}</p>
