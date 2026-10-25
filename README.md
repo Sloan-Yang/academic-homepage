@@ -2,9 +2,9 @@
 
 A compact academic homepage adapted from [luost26/academic-homepage](https://github.com/luost26/academic-homepage). It includes a research biography, three manuscripts, education, and a downloadable CV. All styles, scripts, figures, and the CV are served locally.
 
-Intended repository: `Sloan-Yang/academic-homepage`
+Repository: `Sloan-Yang/academic-homepage`
 
-Intended site: `https://sloan-yang.github.io/academic-homepage/`
+Site: `https://sloan-yang.github.io/academic-homepage/`
 
 This is an independent Jekyll site. The existing blog at `Sloan-Yang.github.io` and the portfolio at `sloan-yang.com` remain separate. The research links lead to the existing project pages on `sloan-yang.com`.
 
@@ -39,9 +39,9 @@ The initial research metadata and figures are copied from `sloan-yang-website/li
 
 ## GitHub Pages
 
-Create the public repository `Sloan-Yang/academic-homepage` and push this directory as its `main` branch. In the repository's **Settings → Pages**, select **GitHub Actions** as the build source. The included workflow builds Jekyll and deploys on pushes to `main`; pull requests are built without deployment.
+The public repository `Sloan-Yang/academic-homepage` uses **GitHub Actions** as its Pages build source. Push changes to its `main` branch to publish updates. The included workflow builds Jekyll and deploys on pushes to `main`; pull requests are built without deployment.
 
-The site is configured with `baseurl: /academic-homepage`. If the repository name changes, update that setting and the intended site URL above. Do not add a `CNAME` file unless you intend to configure a custom domain.
+The site is configured with `baseurl: /academic-homepage`. If the repository name changes, update that setting and the site URL above. Do not add a `CNAME` file unless you intend to configure a custom domain.
 
 The workflow follows [GitHub's custom Pages workflow documentation](https://docs.github.com/en/pages/getting-started-with-github-pages/using-custom-workflows-with-github-pages).
 
