@@ -3,6 +3,8 @@ pages:
     url: /#about
   - name: Research
     url: /#research
+  - name: Honors
+    url: /#honors
   - name: Education
     url: /#education
   - name: CV

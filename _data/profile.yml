@@ -2,7 +2,7 @@ primary_name: Shirong Yang
 secondary_name: Sloan
 navbar_name: Shirong Yang
 positions:
-  - name: MPhil Student
+  - name: M.S. Student
   - name: ShanghaiTech University
 email: yangshr2024@shanghaitech.edu.cn
 github: Sloan-Yang
@@ -10,7 +10,7 @@ cv_link: /assets/files/cv.pdf
 website: https://sloan-yang.com
 portrait_url: /assets/portrait.png
 short_bio: >-
-  <p>I am an MPhil student at <a href="https://www.shanghaitech.edu.cn/eng/">ShanghaiTech University</a>,
+  <p>I am an M.S. student in Computer Science at <a href="https://www.shanghaitech.edu.cn/eng/">ShanghaiTech University</a>,
   working on generative models for graphic design and structured visual generation.</p>
   <p>My research studies how imagery, spatial layout, typography, and semantic intent can be
   generated and edited together. I am particularly interested in using pretrained multimodal
@@ -25,9 +25,26 @@ interests:
   - Vector & SVG graphics
 education:
   - name: ShanghaiTech University
-    position: MPhil Student
+    position: M.S. in Computer Science
     date: 2024 – Present
-    detail: Generative AI, computer vision, and graphic design generation
+    detail: "GPA: 3.50/4.0; research in generative AI, computer vision, and graphic design generation"
   - name: Sichuan University
     position: B.S. in Artificial Intelligence
-    date: Sep 2020 – Jul 2024
+    date: Sep. 2020 – Jul. 2024
+    detail: "GPA: 3.67/4.0"
+honors:
+  - name: Academic Scholarship
+    institution: ShanghaiTech University
+    date: 2025–2026
+  - name: Outstanding Graduate
+    institution: Sichuan University
+    date: 2023–2024
+  - name: National Encouragement Scholarship (Top 3%)
+    institution: Sichuan University
+    date: 2020–2021
+  - name: Tang Zhongying Moral Education Scholarship
+    institution: Sichuan University
+    date: Class of 2020
+  - name: Outstanding Student Leader
+    institution: Sichuan University
+    date: 2020–2021
