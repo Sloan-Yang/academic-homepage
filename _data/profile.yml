@@ -13,7 +13,8 @@ short_bio: >-
   <p>I am an M.S. student in Computer Science at <a href="https://www.shanghaitech.edu.cn/eng/">ShanghaiTech University</a>,
   advised by <a href="https://www.ying-cao.com/">Ying Cao</a> and
   <a href="https://faculty.sist.shanghaitech.edu.cn/liquan/">Quan Li</a>. My research focuses on
-  generative models for graphic design and multimodal understanding.</p>
+  generative modeling for graphic design, particularly the joint understanding and generation
+  of multimodal design content.</p>
   <p>I develop generative models that jointly reason about visual content, spatial layout,
   typography, and semantic intent. My recent work explores multimodal priors for data-efficient
   design generation, interactions between image and layout generation, and coordinated image
