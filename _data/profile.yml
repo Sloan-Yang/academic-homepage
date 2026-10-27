@@ -20,9 +20,11 @@ short_bio: >-
   building interactive systems with Unity, Unreal, and Bevy.</p>
 interests:
   - Generative modeling
-  - Structured visual generation
+  - Multimodal understanding
+  - Image generation
   - Graphic design generation
-  - Vector & SVG graphics
+  - SVG graphic generation
+  - World models
 education:
   - name: ShanghaiTech University
     position: M.S. in Computer Science
