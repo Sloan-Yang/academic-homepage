@@ -11,13 +11,15 @@ website: https://sloan-yang.com
 portrait_url: /assets/portrait.png
 short_bio: >-
   <p>I am an M.S. student in Computer Science at <a href="https://www.shanghaitech.edu.cn/eng/">ShanghaiTech University</a>,
-  working on generative models for graphic design and structured visual generation.</p>
-  <p>My research studies how imagery, spatial layout, typography, and semantic intent can be
-  generated and edited together. I am particularly interested in using pretrained multimodal
-  priors to produce coherent designs that remain editable.</p>
-  <p>My broader interests include 2D/3D generation, vector and SVG graphics, world models,
-  and diffusion- and flow-based generative modeling. Outside research, I enjoy drawing and
-  building interactive systems with Unity, Unreal, and Bevy.</p>
+  advised by <a href="https://www.ying-cao.com/">Ying Cao</a> and
+  <a href="https://faculty.sist.shanghaitech.edu.cn/liquan/">Quan Li</a>. My research focuses on
+  generative models for graphic design and multimodal understanding.</p>
+  <p>I develop generative models that jointly reason about visual content, spatial layout,
+  typography, and semantic intent. My recent work explores multimodal priors for data-efficient
+  design generation, interactions between image and layout generation, and coordinated image
+  editing and layout synthesis. More broadly, I am interested in controllable generation,
+  multimodal learning, and diffusion- and flow-based generative modeling.</p>
+  <p>Beyond research, I enjoy drawing and long-distance running.</p>
 interests:
   - Generative modeling
   - Multimodal understanding
