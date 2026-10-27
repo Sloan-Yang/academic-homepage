@@ -20,17 +20,6 @@ layout: default
       {% assign publications = site.publications | sort: 'order' %}
       {% for item in publications %}{% include widgets/publication_item.html item=item %}{% endfor %}
     </section>
-    <section class="card content-card" id="honors" aria-labelledby="honors-title">
-      <div class="card-body">
-        <h2 id="honors-title">Honors &amp; Awards</h2>
-        {% for item in site.data.profile.honors %}
-        <div class="honors-item">
-          <div class="honors-heading"><h3>{{ item.name }}</h3><span>{{ item.date }}</span></div>
-          <p>{{ item.institution }}</p>
-        </div>
-        {% endfor %}
-      </div>
-    </section>
     <section class="card content-card" id="education" aria-labelledby="education-title">
       <div class="card-body">
         <h2 id="education-title">Education</h2>
